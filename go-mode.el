@@ -406,7 +406,7 @@ For mode=set, all covered lines will have this weight."
     (modify-syntax-entry ?`  "\"" st)
     (modify-syntax-entry ?\\ "\\" st)
     ;; TODO make _ a symbol constituent now that xemacs is gone
-    (modify-syntax-entry ?_  "w" st)
+    ;; (modify-syntax-entry ?_  "w" st)
 
     st)
   "Syntax table for Go mode.")
